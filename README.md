@@ -6,14 +6,10 @@ This project provide user can search restaurant list by name or category.
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -40,7 +36,7 @@ Users should be able to:
 In this project it's my first time to set up routes by express framework.
 
 - Fist we need to import modules and data we need.
-  The default for `require()` is module. if there is a `./` inside, js would regard as a route
+  The default for `require()` is module. If there is a `./` inside, js would regard as a route.
 
 ```javascript
 const express = require("express");
@@ -57,8 +53,8 @@ app.set("view engine", "handlebars");
 
 - Setting routes by `app.get()`
 
-In Handlebars I learn a way to create repeat element.
-It likes `for...loop` in JavaScript
+In Handlebars I learn a way to create repeat element.  
+It likes `for...loop` in JavaScript. We typing code inside `{{#each}}..{{/each}}`.
 
 ```handlebars
 {{#each}}
