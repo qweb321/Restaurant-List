@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 // Show information
 app.get("/restaurants/:id", (req, res) => {
   const restaurant = restaurantList.results.filter((rest) => {
-    return rest.id == req.params.id;
+    return rest.id === Number(req.params.id);
   });
   res.render("show", { restaurant: restaurant[0] });
 });
