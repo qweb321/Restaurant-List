@@ -4,8 +4,8 @@ This project provide user can search restaurant list by name or category.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [Overview](#Overview)
+- [Installation](#Installation)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -13,13 +13,31 @@ This project provide user can search restaurant list by name or category.
 
 ## Overview
 
-### The challenge
-
 Users should be able to:
 
 - View the restaurant users like.
 - See restaurant details, like category, phone number, address and rate.
 - Search by restaurant name or category.
+
+## Installation
+
+1. Before start, make sure you already install Express and npm
+```
+git clone https://github.com/qweb321/Restaurant-List.git
+```
+2. In local side, run npm install
+3. After installation finished, run
+```
+npm run start
+```
+4. If terminal show the sentence below, means run successfully and click the url
+```
+app is listening in http://localhost:3000
+```
+5. If you want to stop
+```
+ctrl + C
+```
 
 ## My process
 
